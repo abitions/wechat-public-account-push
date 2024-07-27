@@ -16,9 +16,10 @@ const TEMPLATE_CONFIG = [
       
       气温(最高/最低):{{max_temperature.DATA}} / {{min_temperature.DATA}}
       
-      风向: {{wind_direction.DATA}}
-      
-      风级: {{wind_scale.DATA}}
+     今日{{city.DATA}}天气☁️：{{tian_api_weather_weather_0.DATA}}
+温度🌡️: {{tian_api_weather_lowest_0.DATA}}-{{tian_api_weather_highest_0.DATA}}
+紫外线强度指数☀️: {{tian_api_weather_uv_index_0.DATA}}
+穿衣指数👚: {{tian_api_weather_tips_0.DATA}}
       
       {{comprehensive_horoscope.DATA}}
       
